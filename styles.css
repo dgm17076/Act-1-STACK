@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+#encabezado {
+    background-color: #1f2a44;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.mision-vision h2 {
+    margin-top: 15px;
+}
+
+#proyectos {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.proyecto {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#contacto {
+    padding: 20px;
+    background-color: #e9ecef;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #1f2a44;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #162033;
+}
+
+#pie {
+    background-color: #1f2a44;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    #encabezado,
+    #proyectos,
+    #contacto {
+        padding: 15px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    #proyectos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyecto {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input, textarea, button {
+        width: 100%;
+        font-size: 16px; 
+        margin-bottom: 15px;
+    }
+
+    button {
+        padding: 15px; 
+    }
+
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
